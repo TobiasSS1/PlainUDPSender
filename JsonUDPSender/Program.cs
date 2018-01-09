@@ -4,16 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PlainUDPSender
+namespace JsonUDPSender
 {
 	class Program
 	{
-		private const int port = 11001;
+		private const int PORT = 11002;
 		static void Main(string[] args)
 		{
-			PlainUDPSender s = new PlainUDPSender(port);
+			JsonUdpSender s = new JsonUdpSender(PORT);
 			s.Start();
-			Console.ReadKey();
+
+			Console.WriteLine("End of receiver program...");
+			Console.ReadLine();
 		}
 	}
 }

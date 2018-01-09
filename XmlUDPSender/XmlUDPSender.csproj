@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{70AA3E2C-AD46-46A8-B667-717E6E99B917}</ProjectGuid>
+    <ProjectGuid>{6A74807D-9A3E-40A6-8BAD-86773FF2F3DB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PlainUDPSender</RootNamespace>
-    <AssemblyName>PlainUDPSender</AssemblyName>
+    <RootNamespace>XmlUDPSender</RootNamespace>
+    <AssemblyName>XmlUDPSender</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PlainUDPSender.cs" />
+    <Compile Include="XmlUDPSender.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
